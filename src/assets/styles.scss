@@ -1,0 +1,55 @@
+.v-main {
+	margin-top: 66px;
+	margin-bottom: 56px;
+	padding: 15px !important;
+}
+
+.products {
+	padding: 10px;
+}
+
+.app_header {
+
+	.v-toolbar__content {
+		border-bottom: 1px solid #ddd !important;
+	}
+
+	.logo_wrap {
+		width: 35px;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		padding: 7px;
+		border-radius: 10px;
+		img {
+			width: 100%;
+		}
+	}
+
+	.v-toolbar__title {
+		overflow: visible;
+		padding-left: 10px;
+
+		.site_name {
+			font-size: 16px;
+			display: flex;
+			align-items: center;
+			padding-left: 10px;
+			font-weight: 600;
+		}
+	}
+
+	.goback {
+
+
+		i {
+			font-size: 30px !important;
+		}
+	}
+}
+
+.home img {
+	object-fit: contain;
+}
